@@ -1,0 +1,17 @@
+.headingStyle{
+    margin-top: 15px;
+}
+
+body{
+    background-image: url(../images/background/interlaced.png);
+    font-family: 'Raleway', sans-serif;
+}
+
+.marginMainContent{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 960px;
+}
+.buttonMargin{
+    margin-bottom: 15px;
+}

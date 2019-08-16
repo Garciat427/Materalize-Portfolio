@@ -1,0 +1,16 @@
+.navbarFont{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px, 15px;
+    
+}
+.navbarSize{
+    width: 960px;
+}
+
+.footerFont{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin:5px;
+}
