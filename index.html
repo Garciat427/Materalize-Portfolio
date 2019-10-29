@@ -1,94 +1,227 @@
-<!DOCTYPE html>     <!--Setting doc type-->
-<html lang="en-us"> <!--Language of current HTML-->
-    <!--Metadata for the site-->
-    <head>
-        <meta charset="UTF-8">          <!--Setting the caracter set-->
-        <title>Troy Garcia - About Me</title>  <!--Setting the title for the site-->
-        <!--Importing any CSS Files for this site-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-        <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">
-        <link href="assets/css/about-me-style.css" rel="stylesheet">
-        <link href="assets/css/navbar-style.css" rel="stylesheet"> <!--CSS styling for this site-->
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!--Header For the site-->
-    <header> <!--Start of header section-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class= "container navbarSize">
-                <div class = "col-md-3">
-                    <a class="navbar-brand navbarFont" href="index.html">Troy Garcia</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FrontEndOnFront</title>
+
+  <!-- CSS  -->
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Roboto&displ ay=swap" rel="stylesheet">
+  
+  <!-- Materialize -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/materialize-style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="assets/FontAwesome/css/all.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 1. First Parallax Banner + Header for site -->
+  <div id="index-banner" class="parallax-container parallax-container-main">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="companyNameText header" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" id="logo"><i class="siteLogo fas fa-road"></i> Front End On Front</h1>
+        <br><br>
+
+        <h1 class="welcome header center white-text" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000" id="slogan1">Modern | Elegant | Sophisticated </h1>
+        <br><br>
+        <h1 class="welcome header center white-text"  data-aos="fade-up" data-aos-duration="2400" data-aos-delay="1600" id="slogan2"> Front End UX for the Current Generation </h1>
+
+        <br><br><br><br>
+        <h1 class="welcome header center white-text"  data-aos="fade-up" data-aos-duration="2400" data-aos-delay="2200" id="slogan2"> Commission Status: Closed </h1>
+
+        <div class="container">
+          <div class="section">
+            <div class="row">
+      
+              <!-- Bio Btn Section -->
+              <div class="col s12 m6">
+                <div class="icon-block">
+                  <h2 class="center white-text"><i class="material-icons">group</i></h2>
+                  <h5 class="center">Our Team</h5>
+                  <div class="row center">
+                    <a href="#Team" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Meet The Team</a>
+                  </div>
                 </div>
-                
-                <div class = "col-md-3">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        </ul>
-                    </div>
+              </div>
+              
+              <!-- Contact Us Btn Section -->
+              <div class="col s12 m6">
+                <div class="icon-block">
+                  <h2 class="center white-text"><i class="material-icons">mood</i></h2>
+                  <h5 class="center">Our Services</h5>
+                  <div class="row center">
+                    <a href="#Contact" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Contact Us</a>
+                  </div>
                 </div>
+              </div>
+      
             </div>
-        </nav>     
-    </header> <!--End of header section-->
-    
-    <!--The main body for the Site-->
-    <body> <!--Start of body section-->
-        <div class="container marginMainContent">
-            <div class="card">
-                <div class = "container">
-                    <div class = "row">
-                        <div class = "col-md-3">
-                                <h2 class = "headingStyle">About Me</h2>
-                        </div>    
-                    </div>
-
-                    <div class = "row">
-                        <div class = "col-lg-12">
-                                <hr size="5">
-                        </div>
-                    </div>
-                    
-                    <div class = "row">
-                        <div class = "col-md-4">
-                            <img class = "img-thumbnail" src="assets/images/AboutMePic.png" alt="My profile Pic">
-                        </div>
-                        <div class = "col-md-8">
-                            <p class="text">Hi! Welcome to my page! If you don't already know, my name is Troy Garcia.
-                                I'm a CompEng and Full Stack Dev Student studying in Toronto, Ontario. Hope you enjoy your time here!
-                            </p>
-                        </div>
-                    </div>
-                    <div class = "row">
-                        <div class = "col-md-12">
-                            <p class="text">Its Hard to think of content so I will edit this later :) Yes... Below too LOL</p>
-                        </div>
-                    </div>
-                    <div class = "row">
-                        <div class = "col-md-12">
-                            <p class="text">Phasellus aliquet vitae nunc in finibus. Mauris sit amet magna ante. Vestibulum consectetur nulla ipsum, ut imperdiet ligula egestas in. Maecenas quis ligula eget lorem pellentesque mattis. Pellentesque gravida sit amet magna et auctor. Integer rutrum mauris in metus bibendum, vel placerat arcu mattis. Pellentesque vel commodo nunc. Morbi sapien arcu, porttitor eu purus molestie, ultrices ultrices massa. Donec et felis ipsum. Mauris imperdiet orci augue, ut ornare justo sollicitudin dictum. Duis mauris libero, varius eu aliquam ut, hendrerit quis velit. Mauris neque nulla, cursus vitae tellus a, tincidunt fermentum ex. Nullam bibendum dui sagittis, dignissim orci eu, dapibus arcu. Nunc rutrum viverra libero eget volutpat. Sed finibus enim vel tortor ullamcorper, ac placerat elit consectetur. In varius, ipsum id dictum consequat, nulla ex dapibus sapien, in pulvinar orci est vel nisi.</p>
-                        </div>
-                    </div>
-                </div>
-            </div> 
+          </div>
         </div>
-    </body> <!--End of body section-->
-    <footer class="bg-dark text-white fixed-bottom">
-        <div class = "container ">
-            <div class = "row">
-                <div class = "col">
-                    <p class = "text-center footerFont">Copyright ©</p>
-                </div>
+
+      </div>
+    </div>
+
+    <div class="parallax"><img src="assets/images/LightsTall.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <!-- 2. Info 1 -->
+  <div class="container">
+    <div class="section">
+
+        <div class="row">
+          <div class="col s12 center">
+            <h4 data-aos="fade-right" data-aos-duration="800" data-aos-offset="100"> <i class="mdi-content-send brown-text" >What is this place?</i></h4>
+            <p class="center-align" data-aos="fade-right" data-aos-duration="800" data-aos-offset="100" data-aos-delay="600">We ("Or should I say I") make modernized front end static UX for companies who want to express their buisness in a more modern way!</p>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- 3. Second Parallax Banner -->
+  <div class="parallax-container valign-wrapper" id="Directions">
+    <div class="parallax"><img src="assets/images/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <!-- 4. Info 2 -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        
+        <div class="col s12 center">
+          <h4 data-aos="fade-down" data-aos-duration="800" data-aos-offset="100"><i class="mdi-content-send brown-text" >Why should I have a modern site?</i></h4>
+          <section data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" data-aos-delay="400">
+            <p class="center-align">Let's be honest for a minute... In today's society, the Internet basically runs the world. </p>
+          </section>
+          <section data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" data-aos-delay="600">
+            <p class="center-align question"> What should you eat?</p>
+          </section>
+          <section data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" data-aos-delay="700">
+            <p class="center-align question"> Where do I go to fix my laptop? </p>
+          </section>
+          <section data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" data-aos-delay="800">
+            <p class="center-align question"> Whats going on tonight in the city?</p>
+          </section>
+          <section data-aos="fade-up" data-aos-duration="600" data-aos-offset="100" data-aos-delay="1000">
+            <p class="center-align"> Look it up! We use the internet to find places that might suit our needs! Having a good website is crutial to maintaining good buisness!</p>
+            <p class="center-align"> A website is basically a first impression of a comapny. If the website is intriguing to customers, then they are more likely to give you a chance!</p>
+          </section>
+          <br><br>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Third Parallax Banner -->
+  <div class="parallax-container valign-wrapper" >
+    <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+  
+  <!-- 6. Who am I Information -->
+  <div class="container scrollspy" id="Team" throttle = "500">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          
+          <h4 data-aos="fade-right" data-aos-duration="800" data-aos-offset="100"> <i class="mdi-content-send brown-text" >Who are you?</i></h4>
+          <section data-aos="fade-up" data-aos-duration="800" data-aos-offset="400">
+            <p class="light">Hi! My name is Troy Garcia! I'm a CompEng and Full Stack Dev Student. Currently Studying at the University of Toronto so you do get a chance to see me, come say hi! </p>
+
+            <P>Coding for me isn't just a job. It's a passion! I code for fun just to explore new ways to create things! Throughout my Carrer as a CompEng Student, I encountered and learned many different programming languages. This was mostly back end code. Codes that run microcontrolers or other mechnical objects. I decided to embark on the path of Fullstack Engineering. This side of Software Engineering mainly deals with the Internet flow both the User interface and the Backend server database all to create the entire stack!</p>
+  
+            <p>And thus, my passion for creating these interesting sites began!</p>
+            <br><br>
+  
+            <h5> Welcome to Front End on Front!</h5>
+            <p>This is more or less a commissions site where I create modernized websites to whoever needs it! In today's standard, old static site designs are boring and don't really grab the reader's attention. Modern sites incorpirate Hi res images with animations to keep the user curious for more!</p> 
+            
+            <p>I personally love websites that flow cause it really brings life into an otherwise boring website!</p>
+          </section>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <!-- 7. Third Parallax Banner -->
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="assets/images/background3.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <!-- 8. Info Section and Links Header -->
+  <section class="scrollspy" id="Contact">
+    <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12 center">
+        
+                <h4 data-aos="fade-right" data-aos-duration="800" data-aos-offset="100"> <i class="mdi-content-send brown-text" >Lets Get Started!</i></h4>
+                <section data-aos="fade-up" data-aos-duration="800">
+                  <p class="light">Ready to start? Have an Idea? Shoot me a message here</p>
+                </section>
+                
+              </div>
             </div>
-        </div>  
-    </footer>   
+      
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <!-- Footer -->
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">For any buisness inquires:</h5>
+          <p class="grey-text text-lighten-4">frontendonfront@outlook.com</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2019 FrontEndOnFront
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+      
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
 </html>
