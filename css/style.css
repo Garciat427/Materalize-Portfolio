@@ -2,23 +2,22 @@
 .siteLogo{
     font-size: 60px !important;
 }
+
 .companyNameText {
     font-size: 100px !important;
-    font-family: 'Roboto', sans-serif;
-    
-    
+    font-family: 'Roboto', sans-serif;    
 }
+
 .welcome {
     font-size: 30px !important;
     font-family: 'Open Sans', sans-serif;
 }
-/* .header{
-    opacity: 0;
-} */
+
 .companySloganText {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
+
 .question {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
@@ -27,15 +26,23 @@
 .parallax-container-main {
     min-height: 1000px;
     max-height: 1080px;
-  }
-      
-  
-  body {
+}
+
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
-  main {
+main {
     flex: 1 0 auto;
-  }
+}
+
+.mainContent {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainContentHighlighted {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
