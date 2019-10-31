@@ -14,51 +14,44 @@
 /* Header Formatting (View) */
 
     .parallax-container-main {
-        min-height: 100vh;
-        max-height: 100vh;
+        height: 100vh;
     }
     .upperHeader {
-        min-height: 60vh;
-        max-height: 60vh;
+        height: 60vh;
         margin-top: 20vh;
     }
     .lowerHeader {
-        min-height: 20vh;
-        max-height: 20vh;
+        height: 20vh;
         margin: 0%;
     }
 
 /* Header Formatting (Text) */
 
     .reset-marg-pad {
-        margin: 0% !important;
-        padding: 0% !important;
+        margin: 0%;
+        padding: 0%;
     }
 
     .siteTitle {
-        font-size: 20vh !important;
-        font-family: 'Roboto', sans-serif;
-        margin: 0%;
+        margin-top: 15vh;
+        height: 20vh;
     }
 
     .positionTitle {
-        font-size: 5vh !important;
-        font-family: 'Open Sans', sans-serif;
         margin-top: 5vh;
-        margin-bottom: 0%;
+        height: 10vh;
     }
 
     .welcomeText {
-        font-size: 5vh !important;
-        font-family: 'Open Sans', sans-serif;
-        margin-top: 15vh;
-        margin-bottom: 5vh;
+        margin-top: 20vh;
+        height: 10vh;
     }
 
     .arrorwIcon {
         font-size: 5vh !important;
         font-family: 'Open Sans', sans-serif;
-        margin-bottom: 20vh;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
     }
 
 /* Text and Content Formatting */
