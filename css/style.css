@@ -1,48 +1,71 @@
+/* Main CSS for Portfolio page */
 
-.siteLogo{
-    font-size: 60px !important;
-}
+/* View Formatting */
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
 
-.companyNameText {
-    font-size: 100px !important;
-    font-family: 'Roboto', sans-serif;    
-}
+    main {
+        flex: 1 0 auto;
+    }
 
-.welcome {
-    font-size: 30px !important;
-    font-family: 'Open Sans', sans-serif;
-}
+/* Header Formatting (View) */
 
-.companySloganText {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-}
+    .parallax-container-main {
+        height: 100vh;
+    }
+    .upperHeader {
+        height: 60vh;
+        margin-top: 20vh;
+    }
+    .lowerHeader {
+        height: 20vh;
+        margin: 0%;
+    }
 
-.question {
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-}
+/* Header Formatting (Text) */
 
-.parallax-container-main {
-    min-height: 1000px;
-    max-height: 1080px;
-}
+    .reset-marg-pad {
+        margin: 0%;
+        padding: 0%;
+    }
 
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
+    .siteTitle {
+        margin-top: 15vh;
+        height: 20vh;
+    }
 
-main {
-    flex: 1 0 auto;
-}
+    .positionTitle {
+        margin-top: 5vh;
+        height: 10vh;
+    }
 
-.mainContent {
-    font-family: 'Open Sans', sans-serif;
-}
+    .welcomeText {
+        margin-top: 20vh;
+        height: 10vh;
+    }
 
-.mainContentHighlighted {
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-}
+    .arrorwIcon {
+        font-size: 5vh !important;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+
+/* Text and Content Formatting */
+
+    .question {
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .mainContent {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .mainContentHighlighted {
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
